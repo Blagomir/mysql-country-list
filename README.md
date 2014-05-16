@@ -1,4 +1,4 @@
-mysql-country-list
+MySQL country list
 ==================
 
 Create and Populate table of countries in MySQL
