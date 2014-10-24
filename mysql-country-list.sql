@@ -259,7 +259,8 @@ INSERT INTO `countries` (`id`, `name`, `code`, `code3`, `phone_code`, `postcode_
   (239, 'Zimbabwe', 'ZW', 'ZWE', 263, 0, 0),
   (240, 'Kosovo', 'XK', '', 381, 0, 0),
   (243, 'Montenegro', 'ME', 'MNE', 382, 0, 0),
-  (386, 'Serbia', 'RS', 'SRB', 381, 0, 0);
+  (386, 'Serbia', 'RS', 'SRB', 381, 0, 0),
+  (387, 'Croatia', 'HR', 'HRV', 385, 0, 1);
 
 --
 -- Indexes for dumped tables
