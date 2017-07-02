@@ -10,14 +10,14 @@ CREATE TABLE IF NOT EXISTS `countries` (
   `code3` char(3) NOT NULL,
   `phone_code` int(7) NOT NULL,
   `postcode_required` tinyint(1) NOT NULL DEFAULT '0',
-  `isEU` tinyint(1) NOT NULL DEFAULT '0'
+  `is_eu` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `countries`
 --
 
-INSERT INTO `countries` (`id`, `name`, `code`, `code3`, `phone_code`, `postcode_required`, `isEU`) VALUES
+INSERT INTO `countries` (`id`, `name`, `code`, `code3`, `phone_code`, `postcode_required`, `is_eu`) VALUES
   (1, 'United States', 'US', 'USA', 1, 0, 0),
   (2, 'Canada', 'CA', 'CAN', 1, 0, 0),
   (3, 'Afghanistan', 'AF', 'AFG', 93, 0, 0),
