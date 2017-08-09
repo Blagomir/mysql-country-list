@@ -91,7 +91,6 @@ INSERT INTO `countries` (`id`, `name`, `code`, `code3`, `phone_code`, `postcode_
   (71, 'Fiji', 'FJ', 'FJI', 679, 0, 0),
   (72, 'Finland', 'FI', 'FIN', 358, 0, 1),
   (73, 'France', 'FR', 'FRA', 33, 0, 1),
-  (74, 'France, Metropolitan', 'FX', '', 44, 0, 0),
   (75, 'French Guiana', 'GF', '', 594, 0, 0),
   (76, 'French Polynesia', 'PF', 'PYF', 689, 0, 0),
   (77, 'French Southern Territories', 'TF', '', 44, 0, 0),
