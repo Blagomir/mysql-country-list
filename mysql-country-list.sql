@@ -70,7 +70,7 @@ INSERT INTO `countries` (`id`, `name`, `code`, `code3`, `phone_code`, `postcode_
   (50, 'Congo', 'CG', 'COG', 242, 0, 0),
   (51, 'Cook Islands', 'CK', 'COK', 682, 0, 0),
   (52, 'Costa Rica', 'CR', 'CRC', 506, 0, 0),
-  (53, 'Croatia (Hrvatska)', 'HR', 'HRV', 385, 0, 0),
+  (53, 'Croatia (Hrvatska)', 'HR', 'HRV', 385, 0, 1),
   (54, 'Cuba', 'CU', 'CUB', 53, 0, 0),
   (55, 'Cyprus', 'CY', 'CYP', 357, 0, 1),
   (56, 'Czech Republic', 'CZ', 'CZE', 420, 0, 1),
