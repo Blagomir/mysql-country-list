@@ -6,8 +6,8 @@
 CREATE TABLE IF NOT EXISTS `countries` (
   `id` int(11) NOT NULL,
   `name` varchar(70) NOT NULL DEFAULT '',
-  `code` char(2) NOT NULL DEFAULT '',
-  `code3` char(3) NOT NULL,
+  `iso2` char(2) NOT NULL DEFAULT '',
+  `iso3` char(3) NOT NULL,
   `phone_code` int(7) NOT NULL,
   `postcode_required` tinyint(1) NOT NULL DEFAULT '0',
   `is_eu` tinyint(1) NOT NULL DEFAULT '0'
@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS `countries` (
 -- Dumping data for table `countries`
 --
 
-INSERT INTO `countries` (`id`, `name`, `code`, `code3`, `phone_code`, `postcode_required`, `is_eu`) VALUES
+INSERT INTO `countries` (`id`, `name`, `iso2`, `iso3`, `phone_code`, `postcode_required`, `is_eu`) VALUES
   (1, 'United States', 'US', 'USA', 1, 0, 0),
   (2, 'Canada', 'CA', 'CAN', 1, 0, 0),
   (3, 'Afghanistan', 'AF', 'AFG', 93, 0, 0),
@@ -268,4 +268,4 @@ INSERT INTO `countries` (`id`, `name`, `code`, `code3`, `phone_code`, `postcode_
 -- Indexes for table `countries`
 --
 ALTER TABLE `countries`
-ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `code` (`code`);
+ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `iso2` (`iso2`);
