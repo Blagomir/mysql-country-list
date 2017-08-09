@@ -248,7 +248,7 @@ INSERT INTO `countries` (`id`, `name`, `code`, `code3`, `phone_code`, `postcode_
   (228, 'Vatican City State', 'VA', 'VAT', 39, 0, 0),
   (229, 'Venezuela', 'VE', 'VEN', 58, 0, 0),
   (230, 'Vietnam', 'VN', 'VNM', 84, 0, 0),
-  (231, 'Virigan Islands (British)', 'VG', 'VGB', 1284, 0, 0),
+  (231, 'Virgin Islands (British)', 'VG', 'VGB', 1284, 0, 0),
   (232, 'Virgin Islands (U.S.)', 'VI', 'VIR', 1340, 0, 0),
   (233, 'Wallis and Futuna Islands', 'WF', 'WLF', 681, 0, 0),
   (234, 'Western Sahara', 'EH', 'ESH', 0, 0, 0),
